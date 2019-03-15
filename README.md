@@ -1,4 +1,4 @@
-# USU (Ubuntu Clean Up)
+# UCU (Ubuntu Clean Up)
 ### Dead-simple script to clean up [Ubuntu-based](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based) distros
 
 ## How-To
