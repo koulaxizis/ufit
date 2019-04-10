@@ -10,4 +10,9 @@
 - Enjoy!
 
 #### What it does
-Coming soon...
+- Checks all system repositories for updates and installs them.
+- Removes dependencies that are no longer required.
+- Removes old kernels that are no longer required.
+- Removes all packages kept in the apt cache.
+- Removes all unused flatpak runtimes.
+- Removes old versions on installed snaps.
