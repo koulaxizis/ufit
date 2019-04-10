@@ -1,7 +1,8 @@
-# UCU (Ubuntu Clean Up)
-### Dead-simple script to clean up [Ubuntu-based](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based) distros
+# uFit (Ubuntu Fit)
+## Dead-simple script to clean up [Ubuntu-based](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based) distros
+### Keep your system updated, healthy and fit.
 
-## How-To
+#### How-To
 - Download the script.
 - Right click -> Permissions -> Properties -> Allow executing file as program.
 - Click and run it in terminal.
