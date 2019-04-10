@@ -3,8 +3,11 @@
 ### Keep your system updated, healthy and fit. :slightly_smiling_face:
 
 #### How-To
-- Download the script (uFit.sh).
-- Right click -> Permissions -> Properties -> Allow executing file as program.
-- Click and run it in terminal.
+- Download the script (*uFit.sh*).
+- Right click → Permissions → Properties → Allow executing file as program.
+- Click it and choose "Run in Terminal".
 - Enter your user password.
 - Enjoy!
+
+#### What it does
+Coming soon...
