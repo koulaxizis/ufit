@@ -16,3 +16,4 @@
 - Removes all packages kept in the apt cache.
 - Removes all unused flatpak runtimes.
 - Removes old versions on installed snaps.
+- Removes trashed files older than 30 days.
