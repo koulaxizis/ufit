@@ -14,6 +14,9 @@
 - Removes dependencies that are no longer required.
 - Removes old kernels that are no longer required.
 - Removes all packages kept in the apt cache.
+- Removes all data kept in the thumbnail cache.
 - Removes all unused flatpak runtimes.
 - Removes old versions on installed snaps.
 - Removes trashed files older than 30 days.
+
+**Absolutely no warranty provided. I'm not responsible in any way for any possible damage may occur on your system. Use it at your own responsibility. :wink:**
