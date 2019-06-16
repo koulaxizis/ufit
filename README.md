@@ -10,7 +10,7 @@
 - Enjoy!
 
 #### What it does
-- Checks all system repositories for updates and installs them.
+- Updates all DEB, SNAP and FLATPAK applications.
 - Removes dependencies that are no longer required.
 - Removes old kernels that are no longer required.
 - Removes all packages kept in the apt cache.
