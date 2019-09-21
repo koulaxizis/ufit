@@ -13,4 +13,4 @@ select yn in "Yes" "No"; do
     esac
 done
 
-sudo apt-get update && sudo apt-get install trash-cli && trash-empty 30 && sudo apt-get upgrade && sudo snap refresh && sudo flatpak update && sudo apt-get autoremove --purge && sudo apt-get autoclean && sudo apt-get clean && rm -rf ~/.cache/thumbnails/* && sudo flatpak uninstall --unused && sudo snap set system refresh.retain=2 && xmessage "All done! Enjoy your Linux system! :D"
+sudo apt-get update && sudo apt-get install trash-cli && trash-empty 30 && sudo apt-get upgrade && sudo snap refresh && sudo flatpak update -y && sudo apt-get autoremove --purge -y && sudo apt-get autoclean && sudo apt-get clean && rm -rf ~/.cache/thumbnails/* && sudo flatpak uninstall --unused -y && sudo snap set system refresh.retain=2 && xmessage "All done! Enjoy your Linux system! :D"
