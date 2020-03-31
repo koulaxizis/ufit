@@ -20,3 +20,5 @@
 - Removes trashed files older than 30 days.
 
 **Absolutely no warranty provided. I'm not responsible in any way for any possible damage may occur on your system. Use it at your own responsibility. :wink:**
+
+##### Last but not least: If you find this script useful, consider making a small donation to support me. Thanks! :heart:
