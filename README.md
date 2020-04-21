@@ -11,6 +11,7 @@
 
 #### What it does
 - Updates all DEB, SNAP and FLATPAK applications.
+- Fixes any missing dependencies or broken packages.
 - Removes dependencies that are no longer required.
 - Removes old kernels that are no longer required.
 - Removes all packages kept in the apt cache.

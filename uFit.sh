@@ -7,6 +7,7 @@ echo ".:: Downloaded from https://github.com/koulaxizis/ufit ::."
 echo ""
 echo "What it does...
  - Updates all DEB, SNAP and FLATPAK applications.
+ - Fixes any missing dependencies or broken packages.
  - Removes dependencies that are no longer required.
  - Removes old kernels that are no longer required.
  - Removes all packages kept in the apt cache.
@@ -24,4 +25,4 @@ select yn in "Yes" "No"; do
     esac
 done
 
-sudo apt-get update && sudo apt-get install trash-cli && trash-empty 30 && sudo apt-get upgrade -y && sudo snap refresh && sudo flatpak update -y && sudo apt-get autoremove --purge -y && sudo apt-get autoclean && sudo apt-get clean && rm -rf ~/.cache/thumbnails/* && sudo flatpak uninstall --unused -y && sudo snap set system refresh.retain=2 && xmessage "All done! Enjoy your Linux system! :D"
+sudo apt-get update --fix-missing && sudo apt-get install -f && sudo apt-get install trash-cli && trash-empty 30 && sudo apt-get upgrade -y && sudo snap refresh && sudo flatpak update -y && sudo apt-get autoremove --purge -y && sudo apt-get clean && sudo apt-get autoclean && rm -rf ~/.cache/thumbnails/* && sudo flatpak uninstall --unused -y && sudo snap set system refresh.retain=2 && xmessage "All done! Enjoy your Linux system! :D"
