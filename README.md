@@ -12,14 +12,18 @@
 #### What it does
 - Updates all DEB, SNAP and FLATPAK applications.
 - Fixes any missing dependencies or broken packages.
+- Shrinks systemd's journal to a maximum of 100 MB.
+- Uses preload to speed up application load time.
 - Removes dependencies that are no longer required.
+- Removes orphaned packages and orphaned libraries.
 - Removes old kernels that are no longer required.
 - Removes all packages kept in the apt cache.
 - Removes all data kept in the thumbnail cache.
 - Removes all unused flatpak runtimes.
 - Removes old versions on installed snaps.
 - Removes trashed files older than 30 days.
+- Removes extra localization of installled packages.
 
 **Absolutely no warranty provided. I'm not responsible in any way for any possible damage may occur on your system. Use it at your own responsibility. :wink:**
 
-##### Last but not least: If you find this script useful, consider making a small donation to support me. Thanks! :heart:
+##### Last but not least: If you find this script useful, consider making a small [donation](https://paypal.me/koulaxizis) to support me. Thanks! :heart:
