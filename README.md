@@ -24,6 +24,9 @@
 - Removes trashed files older than 30 days.
 - Removes extra localization of installled packages.
 
+#### Attention
+If snapd isn't installed, the script will end unexpectedly. However, commands about Snap are at the very end, so all of the rest commands will have been executed successfully. Not sure (yet) how to fix that. Feel free to help if you know how. Alternatively, edit the script with your favorite text editor and remove `&& sudo snap refresh && sudo snap set system refresh.retain=2`, save and run it!
+
 **Absolutely no warranty provided. I'm not responsible in any way for any possible damage may occur on your system. Use it at your own responsibility. :wink:**
 
 ##### Last but not least: If you find this script useful, consider making a small [donation](https://paypal.me/koulaxizis) to support me. Thanks! :heart:

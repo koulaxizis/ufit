@@ -20,6 +20,8 @@ echo "What it does...
  - Removes trashed files older than 30 days.
  - Removes extra localization of installled packages."
 echo ""
+echo "If snapd isn't installed, the script will end unexpectedly. However, commands about Snap are at the very end, so all of the rest commands will have been executed successfully. Not sure (yet) how to fix that. Feel free to help if you know how. Alternatively, edit the script with your favorite text editor and remove '&& sudo snap refresh && sudo snap set system refresh.retain=2', save and run it!"
+echo ""
 echo "$(tput setaf 1)$(tput setab 7)Warning:Absolutely no warranty provided. I'm not responsible in any way for any possible damage may occur on your system. Use it at your own responsibility. Do you want to continue? $(tput sgr 0)"
 echo ""
 select yn in "Yes" "No"; do
@@ -29,4 +31,4 @@ select yn in "Yes" "No"; do
     esac
 done
 
-sudo apt-get update --fix-missing && sudo apt-get install -f && sudo apt-get install trash-cli && trash-empty 30 && sudo apt-get install localepurge && sudo apt-get install deborphan && deborphan --guess-all && sudo deborphan --guess-data | xargs sudo aptitude -y purge && sudo deborphan | xargs sudo apt-get -y remove --purge && sudo journalctl --vacuum-size=100M && sudo apt-get install preload && sudo apt-get upgrade -y && sudo snap refresh && sudo flatpak update -y && sudo apt-get autoremove --purge -y && sudo apt-get clean && sudo apt-get autoclean && rm -rf ~/.cache/thumbnails/* && sudo flatpak uninstall --unused -y && sudo snap set system refresh.retain=2 && xmessage "All done! Enjoy your Linux system! :D"
+sudo apt-get update --fix-missing && sudo apt-get install -f && sudo apt-get install trash-cli && trash-empty 30 && sudo apt-get install localepurge && sudo apt-get install deborphan && deborphan --guess-all && sudo deborphan --guess-data | xargs sudo aptitude -y purge && sudo deborphan | xargs sudo apt-get -y remove --purge && sudo journalctl --vacuum-size=100M && sudo apt-get install preload && sudo apt-get upgrade -y && sudo flatpak update -y && sudo apt-get autoremove --purge -y && sudo apt-get clean && sudo apt-get autoclean && rm -rf ~/.cache/thumbnails/* && sudo flatpak uninstall --unused -y && sudo snap refresh && sudo snap set system refresh.retain=2 && xmessage "All done! Enjoy your Linux system! :D"
