@@ -30,3 +30,5 @@ If snapd isn't installed, the script will end unexpectedly. However, commands ab
 **Absolutely no warranty provided. I'm not responsible in any way for any possible damage may occur on your system. Use it at your own responsibility. :wink:**
 
 ##### Last but not least: If you find this script useful, consider making a small [donation](https://paypal.me/koulaxizis) to support me. Thanks! <3
+
+![https://github.com/koulaxizis/ufit/blob/master/Banner.png]
