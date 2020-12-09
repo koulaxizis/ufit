@@ -1,6 +1,6 @@
 # uFit (Ubuntu Fit)
 ## Dead-simple script to clean up [Ubuntu-based](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based) distros.
-### Keep your system updated, healthy and fit. :slightly_smiling_face:
+### Keep your system updated, healthy and fit. :)
 
 #### How-To
 - Download the script (*uFit.sh*).
@@ -29,4 +29,4 @@ If snapd isn't installed, the script will end unexpectedly. However, commands ab
 
 **Absolutely no warranty provided. I'm not responsible in any way for any possible damage may occur on your system. Use it at your own responsibility. :wink:**
 
-##### Last but not least: If you find this script useful, consider making a small [donation](https://paypal.me/koulaxizis) to support me. Thanks! :heart:
+##### Last but not least: If you find this script useful, consider making a small [donation](https://paypal.me/koulaxizis) to support me. Thanks! <3
