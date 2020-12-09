@@ -51,4 +51,4 @@ rm -rf ~/.cache/thumbnails/*
 sudo flatpak uninstall --unused -y
 sudo snap refresh
 sudo snap set system refresh.retain=2
-xmessage "All done! Enjoy your Linux system! :D"
+xmessage "All done! Enjoy your (awesome) Linux system! :D"
