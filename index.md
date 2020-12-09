@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# uFit (Ubuntu Fit)
+## Dead-simple script to clean up [Ubuntu-based](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based) distros.
+### Keep your system updated, healthy and fit. :slightly_smiling_face:
 
-You can use the [editor on GitHub](https://github.com/koulaxizis/ufit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+#### How-To
+- Download the script (*uFit.sh*).
+- Right click → Permissions → Properties → Allow executing file as program.
+- Click it and choose "Run in Terminal".
+- Enter your user password.
+- Enjoy!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### What it does
+- Updates all DEB, SNAP and FLATPAK applications.
+- Fixes any missing dependencies or broken packages.
+- Shrinks systemd's journal to a maximum of 100 MB.
+- Uses preload to speed up application load time.
+- Removes dependencies that are no longer required.
+- Removes orphaned packages and orphaned libraries.
+- Removes old kernels that are no longer required.
+- Removes all packages kept in the apt cache.
+- Removes all data kept in the thumbnail cache.
+- Removes all unused flatpak runtimes.
+- Removes old versions on installed snaps.
+- Removes trashed files older than 30 days.
+- Removes extra localization of installled packages.
 
-### Markdown
+#### Attention
+If snapd isn't installed, the script will end unexpectedly. However, commands about Snap are at the very end, so all of the rest commands will have been executed successfully. Not sure (yet) how to fix that. Feel free to help if you know how. Alternatively, edit the script with your favorite text editor, remove `sudo snap refresh` and `sudo snap set system refresh.retain=2`, save and run it!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Absolutely no warranty provided. I'm not responsible in any way for any possible damage may occur on your system. Use it at your own responsibility. :wink:**
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/koulaxizis/ufit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##### Last but not least: If you find this script useful, consider making a small [donation](https://paypal.me/koulaxizis) to support me. Thanks! :heart:
