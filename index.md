@@ -31,4 +31,4 @@ If snapd isn't installed, the script will end unexpectedly. However, commands ab
 
 ##### Last but not least: If you find this script useful, consider making a small [donation](https://paypal.me/koulaxizis) to support me. Thanks! <3
 
-![Image](https://github.com/koulaxizis/ufit/blob/master/Banner.png)
+![Image](https://raw.githubusercontent.com/koulaxizis/ufit/master/Banner.png)
